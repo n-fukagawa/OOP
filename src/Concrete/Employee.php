@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Concrete;
+namespace App\Abstracts;
+// namespace App\Concrete;
 
 
-class Designer
+abstract class Employee
 {
   public $baseSalary;
   public $allowance;
@@ -12,4 +13,5 @@ class Designer
     $this->baseSalary = 200000;
     $this->allowance = 20000;
   }
+
 }
